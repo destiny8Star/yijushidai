@@ -1,0 +1,82 @@
+.gongsi_banner{
+	width: 1366px;
+	height: 425px;
+	margin: 0 auto;
+	position: relative;
+}
+.chanpin_banner3{
+	width: 164px;
+	height: 38px;
+	position: absolute;
+	left: 242px;
+	bottom: 155px;
+}
+.brand{
+	width: 1208px;
+	height: 940px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.brand_pic1{
+	float: left;
+	width: 290px;
+	height: 382px;
+	margin-right: 16px;
+	margin-bottom: 30px;
+	position: relative;
+}
+.brand_pic2{
+	float: left;
+	width: 290px;
+	height: 382px;
+	margin-bottom: 30px;
+	position: relative;
+
+}
+.yema{
+	float: left;
+	width: 400px;
+	height: 31px;
+	margin-left: 400px;
+}
+.yema_left{
+	float: left;
+	font-size: 24px;
+	color: #4d4d4d;
+	margin-right: 26px;
+}
+.yema_num{
+	margin-top: 3.5px;
+	margin-right: 26px;
+	width: 24px;
+	height: 24px;
+	background-color: #e5e5e5;
+	font-size: 12px;
+	text-align: center;
+	line-height: 24px;
+	border-radius: 50%;
+	float: left;
+	transition: background-color .5s;
+}
+.yema_num:hover{
+	background-color: #245974;
+}
+.chanpingzhongxin_content_1_fugai{
+	width: 247px;
+	height: 322px;
+	background-color: #194c62;
+	position: absolute;
+	z-index: 2;
+	mix-blend-mode: multiply;
+	top: 20px;
+	left: 30px;
+	font-size: 24px;
+	color: #fff;
+	visibility: hidden;
+	transition: visibility 1s;
+	/* padding-top: 35px;
+	padding-left: 23px; */
+}
+.brand_pic1:hover .chanpingzhongxin_content_1_fugai{
+	visibility: visible;
+}
